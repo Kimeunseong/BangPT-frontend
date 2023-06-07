@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:title="홈"
+        android:icon="@drawable/home"
+        android:width="35dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/community"
+        android:enabled="true"
+        android:icon="@drawable/commu"
+        android:title="커뮤니티"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/calendar"
+        android:enabled="true"
+        android:icon="@drawable/call"
+        android:title="운동일지"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/challenge"
+        android:enabled="true"
+        android:title="챌린지"
+        android:icon="@drawable/chall2"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mypage"
+        android:enabled="true"
+        android:title="마이페이지"
+        android:icon="@drawable/mypage"
+        app:showAsAction="always"
+        />
+</menu>

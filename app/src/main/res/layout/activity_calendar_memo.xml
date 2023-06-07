@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80deea"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nexon"
+            android:text="운동 일지"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text=" 운동 일지 작성 "
+            android:fontFamily="@font/nexon"
+            android:background="@drawable/roundbutton"/>
+        <EditText
+            android:id="@+id/write"
+            android:inputType="textPersonName"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:hint="작성해주세요"
+            android:fontFamily="@font/nexon"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"/>
+        <Button
+            android:id="@+id/reg_button"
+            android:layout_gravity="center"
+            android:layout_width="330dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text="등록하기"
+            android:fontFamily="@font/nexon"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:background="@drawable/roundbutton"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text=" 운동 일지 목록 "
+            android:fontFamily="@font/nexon"
+            android:background="@drawable/roundbutton"/>
+
+        <ListView
+            android:id="@+id/my_list2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="13"
+            android:background="#ffffff"
+            android:dividerHeight="0dp"
+            android:fontFamily="@font/nexon" />
+    </LinearLayout>
+
+</LinearLayout>

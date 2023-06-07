@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80deea"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nexon"
+            android:text="Badge"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nexon"
+
+            android:textSize="20dp"
+            android:text="나의 배지 :"
+            android:padding="3dp" />
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nexon"
+            android:textSize="21dp"
+            android:text="3"
+            android:textStyle="bold"
+            android:padding="3dp" />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nexon"
+            android:textSize="19dp"
+            android:text="개"
+            android:padding="3dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@null"
+                android:src="@drawable/badge_secret"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/badge1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="만나서 반가워"
+                    android:padding="3dp" />
+                <TextView
+                    android:id="@+id/badge1_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textSize="20dp"
+                    android:text="일주일 출석 완료"
+                    android:padding="3dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@null"
+                android:src="@drawable/badge_secret"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/badge2_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="자주 보네요"
+                    android:padding="3dp" />
+                <TextView
+                    android:id="@+id/badge2_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textSize="20dp"
+                    android:text="한 달 출석 완료!"
+                    android:padding="3dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@null"
+                android:src="@drawable/badge_secret"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/badge3_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="시작이 반이다"
+                    android:padding="3dp" />
+                <TextView
+                    android:id="@+id/badge3_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textSize="20dp"
+                    android:text="처음으로 코치 받기 완료 !"
+                    android:padding="3dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@null"
+                android:src="@drawable/badge_secret"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/badge_secret" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/badge4_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="이제 슬슬 감 잡는 초심자"
+                    android:padding="3dp" />
+                <TextView
+                    android:id="@+id/badge4_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textSize="20dp"
+                    android:text="운동 횟수 100회 달성"
+                    android:padding="3dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@null"
+                android:src="@drawable/badge_secret"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/badge5_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="완벽한 자세를 향해"
+                    android:padding="3dp" />
+                <TextView
+                    android:id="@+id/badge5_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/nexon"
+                    android:textSize="20dp"
+                    android:text="운동 횟수 500번 달성"
+                    android:padding="3dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

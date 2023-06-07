@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    //버튼이 눌린 상태일때
+    <item android:state_enabled="true">
+        <shape>
+            //색 정의
+            <solid android:color="#A0D9E2">
+            </solid>
+
+            //모서리
+            <corners android:radius="10dp">
+            </corners>
+        </shape>
+    </item>
+</selector>

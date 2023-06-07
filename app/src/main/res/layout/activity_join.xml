@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80deea"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/nexon"
+                android:text="Join"
+                android:textColor="@android:color/background_light"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                >
+
+                <EditText
+                    android:id="@+id/et_id"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/line"
+                    android:fontFamily="@font/nexon"
+                    android:hint="ID"
+                    android:inputType="textPersonName"
+                    android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/btn_chkID"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/roundbtn2"
+                    android:fontFamily="@font/nexon"
+                    android:text="Check ID"
+                    android:textColor="@color/design_default_color_background"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line"
+                android:fontFamily="@font/nexon"
+                android:hint="PASSWORD"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line"
+                android:fontFamily="@font/nexon"
+                android:hint="이름"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_nickname"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line"
+                android:fontFamily="@font/nexon"
+                android:hint="닉네임"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/et_trainer"
+                        android:layout_width="210dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/nexon"
+                        android:textSize="19dp"
+                        android:text="트레이너 회원이신가요?"
+                        android:padding="3dp" />
+
+                    <Button
+                        android:id="@+id/btn_confirm"
+                        android:layout_width="70dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/roundbtn2"
+                        android:fontFamily="@font/nexon"
+                        android:text="인증하기"
+                        android:textColor="@color/design_default_color_background"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="210dp"
+                android:background="@drawable/roundbtn2"
+                android:fontFamily="@font/nexon"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

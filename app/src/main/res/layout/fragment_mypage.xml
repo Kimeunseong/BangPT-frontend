@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80deea"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nexon"
+            android:text="MyPage"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nexon"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:text="ibnuena"
+                android:padding="3dp" />
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nexon"
+                android:textSize="19dp"
+                android:text="일반 회원"
+                android:padding="3dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnID"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbtn2"
+            android:fontFamily="@font/nexon"
+            android:text="내 정보"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/linebnt"
+        android:textSize="18dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/nexon"
+        android:textStyle="bold"
+        android:textColor="#A0D9E2"
+        android:text="작성 글" />
+    <Button
+        android:id="@+id/btn_badge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/linebnt"
+        android:textSize="18dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/nexon"
+        android:textColor="#A0D9E2"
+        android:text="활동 배지" />
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/linebnt"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/nexon"
+        android:textColor="#A0D9E2"
+        android:text="운동 분석 결과" />
+
+</LinearLayout>
